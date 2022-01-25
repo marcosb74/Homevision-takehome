@@ -25,7 +25,9 @@ This is the resolution of the frontend challenge provided by Homevision. The app
 
 **Project Details:**
 
-This project was developed in React v17.0.2 and Typescript v4.5. Libraries used:
+This project was developed in React v17.0.2 and Typescript v4.5. 
+
+Libraries used:
 
 - Axios-retry/Axios, in order to make HTTP requests and handle amount of request and time between requets.
 - react-bootstrap, handles some of the css, such as the navbar and provides some components like alerts.
