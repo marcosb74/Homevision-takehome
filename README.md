@@ -19,21 +19,24 @@
 
 ## Introduction <a name = "introduction"></a>
 
-This is the resolution of the frontend challenge provided by Homevision. The application allows the user to explore an "infinite" list of houses, there are edge cases contemplated such as, what happens if the user reaches the bottom of the list, or if the server fails an specific amount of times in a row. This webapp is also visible on mobile and has a live version. For running it locally, you need to ask Homevision for the API url.
+This is the resolution of the frontend challenge provided by Homevision. The application allows the user to explore an "infinite" list of houses, there are edge cases contemplated such as, what happens if the user reaches the bottom of the list, or if the server fails an specific amount of times in a row. This webapp is also visible on mobile and has a live version.
 
 ## Technologies used <a name = "tech_used"></a>
 
 **Project Details:**
 
-This project was developed in React v17.0.2, libraries used:
+This project was developed in React v17.0.2 and Typescript v4.5. Libraries used:
+
 - Axios-retry/Axios, in order to make HTTP requests and handle amount of request and time between requets.
-- react-animations, displays animation when houses are loading in.
 - react-bootstrap, handles some of the css, such as the navbar and provides some components like alerts.
 - react-intersection-observer, used to handle when the user reaches the bottom of the website, once triggered it will display more houses on screen
 - react-spinners, a spinner that is displayed everytime a request is being proccesed.
 
+**In addition to this list, all necessary @types have been imported.**
+
+
 **Hosting Details:**
-- The project was deployed on Netlify
+- The project was deployed on Netlify.
 
 ## Live version: <a name = "live"></a>
 
