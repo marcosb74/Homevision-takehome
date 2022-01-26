@@ -42,7 +42,7 @@ Libraries used:
 
 ## Live version: <a name = "live"></a>
 
-  - [Live version!](change)
+  - [Live version!](https://homevision-challenge.netlify.app/)
 
 ## Commands <a name = "cmds"></a>
 
