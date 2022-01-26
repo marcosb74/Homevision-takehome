@@ -34,7 +34,8 @@ Libraries used:
 - react-intersection-observer, used to handle when the user reaches the bottom of the website, once triggered it will display more houses on screen
 - react-spinners, a spinner that is displayed everytime a request is being proccesed.
 - Eslint/Prettier, to standarize the format of the project 
-- 
+
+
 **In addition to this list, all necessary @types have been imported.**
 
 
