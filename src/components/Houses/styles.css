@@ -1,0 +1,53 @@
+.address-text {
+  margin-top: 1.2rem;
+  color: black;
+}
+
+.images {
+  height: 250px;
+  width: 250px;
+  clip: rect(110px, 0px, 170px, 0px);
+  clip-path: inset(10px 0px 30px 0px);
+  border: 50%;
+  vertical-align: middle;
+  border-radius: 55%;
+}
+.glass-panel {
+  float: left;
+  transition: all 0.5s;
+  color: black;
+  margin: 15px 25px;
+  background-color: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(89, 91, 91, 0.1);
+  border-radius: 15px;
+  backdrop-filter: blur(2px);
+  max-width: 550px;
+  max-height: 400px;
+  overflow: hidden;
+  width: calc(33.3333% - 50px);
+  height: 420px;
+}
+.glass-panel:hover {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  transform: scale(1.1);
+}
+@media (max-width: 600px) {
+  .houses-list {
+    display: flex;
+  }
+  .glass-panel {
+    width: 550px;
+  }
+}
+@media (min-width: 601px) and (max-width: 996px) {
+  .houses-list {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .glass-panel {
+    width: 650px;
+  }
+}
+.utils-bold {
+  font-weight: bold;
+}

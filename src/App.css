@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;400&family=Lato:wght@400;900&display=swap");
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-width: 100%;
+  text-align: center;
+  background: white;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  height: 100%;
+}

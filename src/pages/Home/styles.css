@@ -1,0 +1,6 @@
+.timeout {
+  cursor: pointer;
+}
+.noHouses {
+  cursor: not-allowed;
+}
