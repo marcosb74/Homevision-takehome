@@ -25,7 +25,7 @@ This is the resolution of the frontend challenge provided by Homevision. The app
 
 **Project Details:**
 
-This project was developed in React v17.0.2 and Typescript v4.5. 
+This project was developed in React v17.0.2 and Typescript v4.5. The project uses Eslint/Prettier, I have used the Airbnb template as a base of my project configuration.
 
 Libraries used:
 
@@ -33,6 +33,8 @@ Libraries used:
 - react-bootstrap, handles some of the css, such as the navbar and provides some components like alerts.
 - react-intersection-observer, used to handle when the user reaches the bottom of the website, once triggered it will display more houses on screen
 - react-spinners, a spinner that is displayed everytime a request is being proccesed.
+- Eslint/Prettier, to standarize the format of the project 
+
 
 **In addition to this list, all necessary @types have been imported.**
 
@@ -43,6 +45,7 @@ Libraries used:
 ## Live version: <a name = "live"></a>
 
   - [Live version!](https://homevision-challenge.netlify.app/)
+
 
 ## Commands <a name = "cmds"></a>
 
