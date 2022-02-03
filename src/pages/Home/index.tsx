@@ -57,7 +57,7 @@ function Home() {
           {alert.label}
         </Alert>
       )}
-      {!alert /* ver esto */ && (
+      {!alert && (
         <InView
           threshold={0.5}
           as="div"
