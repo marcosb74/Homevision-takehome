@@ -18,7 +18,7 @@ function Home() {
       const response = await getHouses(page);
       if (response.data.ok && response.data.houses.length) {
         setHouses([...houses, ...response.data.houses]);
-        setPage((page) => ++page);
+        setPage((page) => page + 1);
       } else {
         setAlert(CUSTOM_ALERT.noHouses);
       }
@@ -27,9 +27,9 @@ function Home() {
     }
   };
 
-  const retryFetchingHouses = () => {
+  const retryFetchingHouses = async () => {
+    await fetchHouses();
     setAlert(undefined);
-    fetchHouses();
   };
 
   const onChangeInView = (entry: IntersectionObserverEntry) => {
